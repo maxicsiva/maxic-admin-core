@@ -1,0 +1,44 @@
+/* ==========================================================================
+   Maxic Admin Core — Community Edition Design Tokens
+   Open Source Starter (MIT License)
+
+   Need the full enterprise tokens (credit card gradients, WCAG-certified 
+   financial status borders, extended typography scales, and theme presets)?
+   Get the complete Commercial Kit: https://maxicraft2.gumroad.com/l/fintech-ui-kit/LAUNCH20
+   ========================================================================== */
+
+:root {
+  /* Community Core Colors */
+  --mxc-core-primary: #2563eb;
+  --mxc-core-primary-hover: #1d4ed8;
+
+  /* Basic Status Indicators */
+  --mxc-core-success: #10b981;
+  --mxc-core-warning: #f59e0b;
+  --mxc-core-danger: #ef4444;
+
+  /* Base Canvas & Surface */
+  --mxc-core-bg: #f8fafc;
+  --mxc-core-surface: #ffffff;
+  --mxc-core-border: #e2e8f0;
+
+  /* Typography */
+  --mxc-core-text: #0f172a;
+  --mxc-core-text-muted: #64748b;
+  --mxc-core-font-sans: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Standard Spacing & Shape */
+  --mxc-core-radius: 0.5rem;
+  --mxc-core-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* Base Dark Mode Inversion */
+[data-theme="dark"] {
+  --mxc-core-bg: #0f172a;
+  --mxc-core-surface: #1e293b;
+  --mxc-core-border: #334155;
+  --mxc-core-text: #f8fafc;
+  --mxc-core-text-muted: #94a3b8;
+  --mxc-core-primary: #3b82f6;
+  --mxc-core-primary-hover: #60a5fa;
+}

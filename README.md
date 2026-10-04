@@ -2,7 +2,8 @@
 
 A zero-dependency, lightweight fintech & SaaS dashboard template built on native web standards. No bundlers, no npm bloat, zero framework dependencies.
 
-![Maxic Preview]([https://maxic-fintech-ui-kit.vercel.app/og-preview.png](https://github.com/maxicsiva/maxic-admin-core/blob/main/01_maxic_hero_cover.jpg.png)
+
+![Maxic Preview](https://github.com/maxicsiva/maxic-admin-core/blob/main/01_maxic_hero_cover.jpg.png)
 
 ## Highlights
 
